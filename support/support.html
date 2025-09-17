@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WhereMate – Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #111;
+      --text: #222;
+      --muted: #555;
+      --line: #e6e6e6;
+      --bg: #fafafa;
+      --accent: #0070f3;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 0 1.5em 4em;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+      color: var(--ink);
+      margin-top: 2rem;
+    }
+    h1 { font-size: 2rem; margin-top: 0; }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3em;
+      margin-bottom: 0.7em;
+    }
+    p, li { font-size: 1rem; margin-bottom: 1em; }
+    ul, ol { padding-left: 1.2em; }
+    em { color: #444; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .kicker { color: var(--muted); margin-top: 0.25rem; }
+    .grid { display: grid; gap: 1rem; }
+    .cards { grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.25rem 1.25rem 1rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,.03);
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1rem;
+      border-radius: 10px;
+      border: 1px solid var(--accent);
+      color: #fff;
+      background: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      margin-right: .5rem;
+    }
+    .btn.secondary {
+      color: var(--accent);
+      background: transparent;
+    }
+    .meta {
+      font-size: .95rem;
+      color: var(--muted);
+      margin-top: .2rem;
+    }
+    .list-clean { list-style: none; padding-left: 0; }
+    .list-clean li { margin: .4rem 0; }
+    footer {
+      margin-top: 3em;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>WhereMate – Support</h1>
+  <p class="kicker"><em>Last updated: September 17, 2025</em></p>
+
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p>We’re here to help. Email us and we’ll respond as soon as we can.</p>
+    <p>
+      <a class="btn" href="mailto:info@ontimetraveling.com">Email Support</a>
+      <a class="btn secondary" href="../privacy/">Privacy Policy</a>
+    </p>
+    <p class="meta">
+      HS Technologies, LLC • Brendan Smith • <a href="mailto:info@ontimetraveling.com">info@ontimetraveling.com</a>
+    </p>
+  </div>
+
+  <h2>Quick Help</h2>
+  <div class="grid cards">
+    <div class="card">
+      <h3>Reminders aren’t appearing</h3>
+      <ol>
+        <li>Open <strong>Settings → Notifications → WhereMate</strong> and enable <strong>Allow Notifications</strong>.</li>
+        <li>Open WhereMate and confirm a reminder is set for the item.</li>
+        <li>Low Power Mode can delay alerts—toggle it off if needed.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>Can’t save a photo</h3>
+      <ol>
+        <li>In iOS <strong>Settings → Privacy &amp; Security → Camera</strong>, allow camera access for WhereMate.</li>
+        <li>“Save to Photos” is optional. To save to Photos, grant Photos permission in <strong>Settings → Privacy &amp; Security → Photos</strong>.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>Where are my items stored?</h3>
+      <p>All item photos, labels, and annotations are stored <strong>on your device</strong> in the app’s sandbox. We don’t run a backend or upload your content.</p>
+    </div>
+
+    <div class="card">
+      <h3>How to report a bug or request a feature</h3>
+      <p>Email <a href="mailto:info@ontimetraveling.com">info@ontimetraveling.com</a> and include:</p>
+      <ul>
+        <li>What you tried + what you expected + what happened</li>
+        <li>Your iPhone model and iOS version</li>
+        <li>App version (from the App Store “WhereMate” page)</li>
+        <li>Screenshots or screen recording (if possible)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Tips &amp; Best Practices</h2>
+  <ul class="list-clean">
+    <li>Use short, clear labels (e.g., “Top drawer — left corner”).</li>
+    <li>Set a gentle reminder cadence for long-term items (e.g., monthly).</li>
+    <li>Keep Photos saving off unless you specifically want copies in your library.</li>
+  </ul>
+
+  <footer>
+    <p>&copy; 2025 HS Technologies, LLC. WhereMate is a local-first utility: no accounts, no cloud, no ads. See our <a href="../privacy/">Privacy Policy</a>.</p>
+  </footer>
+
+</body>
+</html>
+
